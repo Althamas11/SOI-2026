@@ -1,0 +1,162 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+
+body{
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+/* Header */
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+/* Hero Section */
+
+#home{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+#home h2{
+    font-size:36px;
+    margin-bottom:15px;
+}
+
+#home p{
+    max-width:700px;
+    margin:auto;
+}
+
+/* Sections */
+
+section{
+    padding:60px 10%;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:20px;
+    color:#1e3a8a;
+}
+
+/* About */
+
+#about p{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+/* Learning Cards */
+
+.card{
+    background:white;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    max-width:700px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+/* Team */
+
+#team ul{
+    list-style:none;
+    text-align:center;
+}
+
+#team li{
+    background:rgb(223, 223, 7);
+    display:inline-block;
+    margin:10px;
+    padding:15px 25px;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(46, 11, 219, 0.865);
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+}
+
+#contact p{
+    margin:10px 0;
+}
+
+/* Footer */
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    #home h2{
+        font-size:28px;
+    }
+
+    section{
+        padding:40px 20px;
+    }
+
+    #team li{
+        display:block;
+        width:80%;
+        margin:15px auto;
+    }
+
+}
+
